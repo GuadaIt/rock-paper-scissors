@@ -1,0 +1,115 @@
+* {
+ margin: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #abacab;
+}
+
+.main-container {
+  margin: 10px;
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 17px -5px rgba(0,0,0,1);
+}
+
+header {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ background-color: royalblue;
+ color: #fff;
+}
+
+header div {
+ flex: 1;
+ text-align: center;
+ padding: 20px;
+}
+
+
+header p {
+ font-size: 30px;
+ margin-top: 10px;
+}
+
+section {
+ width: 100%;
+ background-color: #fff;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+.result {
+  padding: 50px;
+  text-align: center;
+}
+
+.result-message {
+  font-size: 30px;
+  width: 100%;
+}
+
+.choices {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 100px;
+}
+
+.imgs {
+ width: 100%;
+ height: 180px;
+ display: flex;
+ justify-content: center;
+}
+
+.imgs div {
+ width: 150px;
+}
+
+.imgs .choice-img {
+  display: flex;
+  align-items: center;
+}
+
+.imgs .choice-img img {
+ width: 100%;
+}
+
+.btns-options {
+ display: flex;
+ justify-content: center;
+ padding-top: 30px;
+}
+
+.user-pick {
+ flex: 1;
+ max-width: 100px;
+ max-height: 100px;
+ margin: 5px;
+ border: 3px solid black;
+ overflow: hidden;
+ padding: 10px;
+ border-radius: 100%;
+ transition: all 0.5s ease-in-out;
+}
+
+.user-pick img {
+ width: 100%;
+}
+
+.user-pick:hover {
+ border-color: royalblue;
+ cursor: pointer;
+}
+
+

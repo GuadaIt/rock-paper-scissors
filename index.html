@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Rock, Paper, Scissors!</title>
+ <link href="./style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+
+ <header>
+  <div>
+     <h2>User</h2>
+     <p id="user-score">0</p>
+  </div>
+  
+  <div>
+    <h2>Computer</h2>
+    <p id="computer-score">0</p>
+  </div>
+ </header>
+
+ <section class="result">
+   <h3 class="result-message">Winner: </h3>
+ </section>
+
+ <section class="choices">
+   <div class="imgs">
+     <div class="choice-img" >
+       <img src="./assets/rock-user.png" id="user-choice-img" alt="rock" >
+     </div>
+     <div class="choice-img" >
+      <img src="./assets/rock.png" id="computer-choice-img" alt="rock">
+     </div>
+   </div>
+
+   <div class="btns-options">
+     <div class="user-pick" id="r">
+      <img src="./assets/rock.png" alt="rock">
+     </div>
+     <div class="user-pick" id="p">
+      <img src="./assets/paper.png" alt="paper">
+     </div>
+     <div class="user-pick" id="s">
+      <img src="./assets/scissors.png" alt="scissors">
+     </div>
+   </div>
+ </section>
+</div>
+
+ <script src="rps.js"></script>
+</body>
+</html>
